@@ -55,7 +55,7 @@ def app():
         
     if st.button('Start'):
         
-        df = pd.read_csv('clustered_data.csv', header=None)
+        df = pd.read_csv('clustered_data.csv', header=0)
         # st.dataframe(df, use_container_width=True)  
         
         st.subheader('The Dataset')
